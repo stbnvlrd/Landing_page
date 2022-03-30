@@ -4,7 +4,7 @@ body{
     flex-direction: column;
 }
 
-/*      Header      */
+/*         Header         */
 
 .header{
     display: flex;
@@ -22,7 +22,7 @@ body{
 }
 
 .header a{
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
     font-size: 14px;
 }
@@ -34,7 +34,7 @@ body{
     align-self: flex-end;
 }
 
-/*       Hero       */
+/*          Hero          */
 
 .hero {
     display: flex;
@@ -66,9 +66,15 @@ body{
     color:#E5E7EB;
     font-size:  18px;
 }
-.hero-buttom button{
+.hero-button button{
     color: #E5E7EB;
-    background-color: blue;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none
 }
 
 .hero-img{
@@ -78,3 +84,46 @@ body{
     background-color: gray;
 }
 
+/*       Information      */
+
+.information {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title{
+    align-items: center;
+    color:#1F2937;
+    font-size:  36px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.info-grid {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-grid div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#1F2937;
+    text-align: center;
+    font-size:  18px;
+    gap: 10px;
+}
+
+.info-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: #3882F6;
+    border-style: solid;
+}
