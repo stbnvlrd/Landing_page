@@ -4,12 +4,14 @@ body{
     flex-direction: column;
 }
 
+/*      Header      */
+
 .header{
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     justify-content: space-between;
 }
 
@@ -31,3 +33,48 @@ body{
     gap: 20px;
     align-self: flex-end;
 }
+
+/*       Hero       */
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    flex: 1 1 auto;
+    gap: 12px;
+}
+
+.hero-title {
+    color:#F9FAF8;
+    font-size:  48px;
+    font-weight: bolder;
+}
+
+.hero-text {
+    color:#E5E7EB;
+    font-size:  18px;
+}
+.hero-buttom button{
+    color: #E5E7EB;
+    background-color: blue;
+}
+
+.hero-img{
+    width: 450px;
+    flex: 1 1 auto;
+    height: 300px;
+    background-color: gray;
+}
+
